@@ -34,11 +34,17 @@ body {
     color: cyan;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+     border: 2px solid #140404;
+  box-shadow: 0 0 10px rgba(230, 84, 12, 0.869);
     border-radius: 25px;
-    background: transparent;
-    padding: 20px;
     text-align: center;
-    border: 2px solid white;
+    margin: auto;
+    width:500px;
+    height: fit-content;
+    background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   }
 
   .has-border {
