@@ -62,11 +62,15 @@ body {
   }
   /* This is an ID selector */
   #profile-pic {
+    border: 2px solid #140404;
+    box-shadow: 0 0 10px rgba(230, 84, 12, 0.869);
+    box-decoration-break: slice;-webkit-box-decoration-break: slice;box-shadow: 8px 8px 10px 0 #6e2700, -5px -5px 5px 0 rgb(0, 0, 0), 5px 5px 15px 0 #ff0;
     width: 300px;
     height: 300px;
     border-radius: 50%;
     margin: 15% auto;
     grid-column: 2/3;
+
   }
 
   h1 {
