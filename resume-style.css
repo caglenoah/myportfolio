@@ -1,0 +1,33 @@
+body {  display: grid;
+    grid-template-columns: 25% 50%;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Image heading"
+      "contact skills-title"
+      "contact skills-content"
+      "contact experience-title"
+      "contact experience-content"
+      "contact education-title"
+      "contact education-content";
+  }
+  
+  .image { grid-area: image; }
+  
+  .heading { grid-area: heading; }
+  
+  .contact { grid-area: contact; }
+  
+  .skills-title { grid-area: skills-title; }
+  
+  .skills-content { grid-area: skills-content; }
+  
+  .experience-title { grid-area: experience-title; }
+  
+  .experience-content { grid-area: experience-content; }
+  
+  .education-title { grid-area: education-title; }
+  
+  .education-content { grid-area: education-content; }
+  
