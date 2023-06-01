@@ -12,7 +12,7 @@ body {  display: grid;
       "contact education-title"
       "contact education-content";
       background-image: url('https://img.freepik.com/premium-vector/manga-neon-anime-action-frame-lines-with-halftones-colored-pop-art-retro-background-with-exploding-rays-lightning-comic-style-vector-illustration-abstract-explosive-template-with-speed-lines_499433-525.jpg?w=1800');
-    color: red; /* just to see for now */
+    color: rgb(128, 24, 24); /* just to see for now */
     }
 
     img {
