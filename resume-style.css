@@ -1,5 +1,5 @@
-body {  display: grid;
-    grid-template-columns: 25% 50%;
+#container {  display: grid;
+    grid-template-columns: 25% 75%;
     grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -11,9 +11,11 @@ body {  display: grid;
       "contact experience-content"
       "contact education-title"
       "contact education-content";
-      background-image: url('https://img.freepik.com/premium-vector/manga-neon-anime-action-frame-lines-with-halftones-colored-pop-art-retro-background-with-exploding-rays-lightning-comic-style-vector-illustration-abstract-explosive-template-with-speed-lines_499433-525.jpg?w=1800');
+      background-color: blanchedalmond;
+      /*background-image: url('https://img.freepik.com/premium-vector/manga-neon-anime-action-frame-lines-with-halftones-colored-pop-art-retro-background-with-exploding-rays-lightning-comic-style-vector-illustration-abstract-explosive-template-with-speed-lines_499433-525.jpg?w=1800');
     color: rgb(128, 24, 24); /* just to see for now */
-    }
+  border: 8px solid red;  
+  }
 
     img {
       border-radius: 50%;
@@ -24,24 +26,31 @@ body {  display: grid;
         0 0 140px 90px rgb(174, 19, 221); /* outer cyan */
       width: 80%;
       border-radius: 45%;
+      border: cornflowerblue;
+    }
+  
+    .heading > h1 { display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 8px solid black;
+
+    }
+    
+    .jobtitle {display: flex;
+      border: 8px solid blue;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: column;
     }
 
-  .image { grid-area: image;
-  }
-  
-  .heading { grid-area: heading; }
-  
-  .contact { grid-area: contact; }
-  
-  .skills-title { grid-area: skills-title; }
-  
-  .skills-content { grid-area: skills-content; }
-  
-  .experience-title { grid-area: experience-title; }
-  
-  .experience-content { grid-area: experience-content; }
-  
-  .education-title { grid-area: education-title; }
-  
-  .education-content { grid-area: education-content; }
-  
+    .contact { display: grid;
+      grid-template-columns: 1;
+      grid-template-rows: 4;
+      grid-column-start 1;
+      grid-row-start: 3;
+      border: 8px solid green;
+    }
+
+    .aboutme {
+      border: 8px solid yellow;
+    }
