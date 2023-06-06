@@ -54,3 +54,32 @@
     .aboutme {
       border: 8px solid yellow;
     }
+
+    .aoe {display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 8px solid purple;
+      align-content: space-between 2px;
+    }
+
+    .profhis { display: flex;
+      flex-direction: column;
+      border: 8px solid orange;
+    }
+
+    .profhis { display: flex;
+    justify-content: center;
+    }
+
+    .edushis {display: flex;
+      flex-direction: column;
+      border: 8px solid white;
+    }
+
+    h1 , h2 , h3 , h4 { display: flex;
+    justify-content: center;
+  }
+
+    .reflink {
+      border: 8px solid cyan;
+    }
