@@ -1,0 +1,35 @@
+.intro { 
+    background-color: aqua;
+    }
+    h1 , h3 , p { display:flex;
+   justify-content: center;
+   }
+    .mcont , .mconttwo { display: flex;
+       justify-content: space-between;
+       background-color: black;
+   
+       border: 10px solid black;
+   }
+   .mconttwo {
+   
+   }
+   
+   img {
+       width: 300px;
+   }
+   
+   .dog , .barefoot {
+       width: 300px;
+   }
+   
+   
+   @media (max-width: 578px) {
+       display: flex ;
+   
+       justify-content: space-evenly;
+       div {
+           display: flex ;
+       flex-flow: column wrap;
+       justify-content: space-evenly;
+       }
+       }
